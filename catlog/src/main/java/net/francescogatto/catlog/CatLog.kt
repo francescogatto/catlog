@@ -152,7 +152,7 @@ class CatLog internal constructor(val application: Application,
      *
      * @return the file
      */
-    private val screehshotFile: File
+     val screehshotFile: File
         get() {
             checkInitialized()
             try {
